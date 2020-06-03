@@ -1,7 +1,8 @@
+-i https://pypi.org/simple/
 asgiref==3.2.7
-Django==3.0
 django-pdfkit==0.3.1
 django-wkhtmltopdf==3.3.0
+django==3.0.3
 pdfkit==0.6.0
 pytz==2020.1
 six==1.15.0
