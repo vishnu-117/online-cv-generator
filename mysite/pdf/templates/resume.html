@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="mx-3">
+    <div class="bg-light px-4">
+        <h2>{{user_profile.name}}</h2>
+        <h2>{{user_profile.email}}</h2>
+        <h2>{{user_profile.phone}}</h2>
+    </div>
+    <hr />
+    <br />
+    <h2 class="bg-secondary px-3 rounded">Summary</h2>
+    <p>{{user_profile.summary}}</p>
+    <h2 class="bg-secondary px-3 rounded">Skills</h2>
+    <p>{{user_profile.skills}}</p>
+    <h2 class="bg-secondary px-3 rounded">Education</h2>
+    <ul>
+        <li>{{user_profile.school}}</li>
+        <li>{{user_profile.university}}</li>
+        <li>{{user_profile.degree}}</li>
+    </ul>
+    <h2 class="bg-secondary px-3 rounded">Experience</h2>
+    <p>{{user_profile.previous_work}}</p>
+</div>
+
+
+{% endblock %}

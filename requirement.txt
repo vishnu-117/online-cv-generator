@@ -1,0 +1,8 @@
+asgiref==3.2.7
+Django==3.0
+django-pdfkit==0.3.1
+django-wkhtmltopdf==3.3.0
+pdfkit==0.6.0
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
